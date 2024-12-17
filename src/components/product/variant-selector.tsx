@@ -5,11 +5,12 @@ import { cn } from '@/lib/utils';
 import { useProduct, useUpdateURL } from '@/providers/product-provider';
 
 import { Button } from '@/components/ui/button';
-import { VariantSwatch } from './variant-swatch';
+
+import { COLOR_MAP , VariantSwatch } from '@/components/product/variant-swatch';
 
 import type { ProductOption, ProductVariant } from '@/types/shopify-types';
 
-import { COLOR_MAP } from '@/components/product/variant-swatch';
+
 
 type Combination = {
   id: string;
