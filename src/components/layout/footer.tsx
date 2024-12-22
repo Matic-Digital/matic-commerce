@@ -18,8 +18,8 @@ export async function Footer() {
 
   return (
     <footer className="text-sm text-neutral-500 dark:text-neutral-400">
-      <div className="mx-auto flex items-center justify-between w-full max-w-7xl flex-col gap-6 px-6 py-12 text-sm md:flex-row md:gap-12 md:px-4 min-[1320px]:px-0">
-        <Link className="flex items-center gap-2 text-black md:pt-1 dark:text-white" href="/">
+      <div className="mx-auto flex w-full max-w-7xl flex-col items-start justify-between gap-6 px-6 py-12 text-sm md:flex-row md:items-center md:gap-12 md:px-4 min-[1320px]:px-0">
+        <Link className="flex items-center gap-2 text-black dark:text-white md:pt-1" href="/">
           <LogoSquare size="sm" />
           <span className="logotype">{SITE_NAME}</span>
         </Link>
